@@ -11,7 +11,7 @@ pip install -r requirements.txt
 Next, to run the code on Raspberry Pi, use `piFingerprint.py` as follows:
 
 ```
-python3 piFingerprint.py --filename fake.jpg --model_path fprintmodel1.tflite --label_path labels.txt
+python3 piFingerprint.py --filename fake.BMP --model_path fprintmodel1.tflite --label_path labels.txt
 ```
 
 
